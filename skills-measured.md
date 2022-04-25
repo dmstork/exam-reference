@@ -12,18 +12,16 @@
 
 ### Troubleshoot Exchange Online mail flow issues
 
-*review and interpret message headers
- *[View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)
- *[Anti-spam message headers  * Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)
-
-*review and interpret message trace results and policies associated with those results
- *[Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)
- *[Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
- *[Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
-
-*determine whether a transport rule or conditional routing rule is affecting mail flow
- *[Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)
- *[Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)
+*review and interpret message headers  
+ *[View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)  
+ *[Anti-spam message headers  * Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)  
+*review and interpret message trace results and policies associated with those results  
+ *[Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)  
+ *[Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)  
+ *[Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)  
+*determine whether a transport rule or conditional routing rule is affecting mail flow  
+ *[Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)  
+ *[Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)  
 
 *identify rules that are evaluated and policies that are applied when sending or receiving email
  *[Test a mail flow rule in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules)
@@ -39,8 +37,7 @@
 *troubleshoot delivery delays**
  *[Mail delivery issues  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/mail-issues)
 
-### Troubleshoot mail flow issues with external systems
-
+#### Troubleshoot mail flow issues with external systems*
 *read and analyze SMTP protocol logs for hybrid deployments and third-party systems**
  *[Protocol logging | Microsoft Docs](https://docs.microsoft.com/en-us/Exchange/mail-flow/connectors/protocol-logging?view=exchserver-2019)
 
@@ -48,8 +45,9 @@
  *[Transport routing in Exchange hybrid deployments | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/transport-routing)
  *[Demystifying and troubleshooting hybrid mail flow: when is a message internal?  * Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/demystifying-and-troubleshooting-hybrid-mail-flow-when-is-a/ba-p/1420838)
 
-* troubleshoot DNS-related mail flow issues**
- * [Mail flow best practices for Exchange Online, Microsoft 365, and Office 365 (overview) | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/mail-flow-best-practices#understanding-how-dns-records-control-mail-flow)
+#### troubleshoot DNS-related mail flow issues**
+
+*[Mail flow best practices for Exchange Online, Microsoft 365, and Office 365 (overview) | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/mail-flow-best-practices#understanding-how-dns-records-control-mail-flow)
 
 * troubleshoot SMTP relay issues**
  * [How to set up a multifunction device or application to send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)
