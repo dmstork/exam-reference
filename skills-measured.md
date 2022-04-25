@@ -1,19 +1,19 @@
-# Exam MS-220: Troubleshooting Microsoft Exchange Online – Skills Measured
+# Exam MS-220: Troubleshooting Microsoft Exchange Online
 
 Created by Dave Stork - Microsoft MVP Office Apps & Services - dmstork at stalpaert dot nl  
 Provided as-is without any garantue of being error free or complete. This is a reference to (mostly) original sources from Microsoft which could help you acquire the skills measured.
 
 Based on skills measured page of the exam, around 25 april 2022. At this time the exam still had the beta label.
-[Source MS-220](https://docs.microsoft.com/en-us/learn/certifications/exams/ms-220)
+[Microsoft Exam MS-220](https://docs.microsoft.com/en-us/learn/certifications/exams/ms-220)
 
 ## Table of Contents
 
 * [Generic links](#generic-links)
-* [Troubleshoot mail flow issues (20–25%)](#troubleshoot-mail-flow-issues-(20–25%))
-* [Troubleshoot compliance and retention issues (25–30%)](#troubleshoot-compliance-and-retention-issues-(25–30%))
-* [Troubleshoot mail client issues (20–25%)](#troubleshoot-mail-client-issues-(20–25%))
-* [Troubleshoot Exchange Online configuration issues (15–20%)](#troubleshoot-exchange-online-configuration-issues-(15–20%))
-* [Troubleshoot hybrid and migration issues (10–15%)](#troubleshoot-hybrid-and-migration-issues-(10–15%))
+* [Troubleshoot mail flow issues (20–25%)](#troubleshoot-mail-flow-issues-2025)
+* [Troubleshoot compliance and retention issues (25–30%)](#troubleshoot-compliance-and-retention-issues-2530)
+* [Troubleshoot mail client issues (20–25%)](#troubleshoot-mail-client-issues-2025)
+* [Troubleshoot Exchange Online configuration issues (15–20%)](#troubleshoot-exchange-online-configuration-issues-1520)
+* [Troubleshoot hybrid and migration issues (10–15%)](#troubleshoot-hybrid-and-migration-issues-1015)
 
 ## Generic links
 
