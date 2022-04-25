@@ -1,21 +1,41 @@
-# Exam MS-220: Troubleshooting Microsoft Exchange Online
+# Exam MS-220: Troubleshooting Microsoft Exchange Online (beta)
 
 Created by Dave Stork - Microsoft MVP Office Apps & Services - dmstork at stalpaert dot nl  
 Provided as-is without any garantue of being error free or complete. This is a reference to (mostly) original sources from Microsoft which could help you acquire the skills measured.
 
-Based on skills measured page of the exam, around 25 april 2022. At this time the exam still had the beta label.
-[Microsoft Exam MS-220](https://docs.microsoft.com/en-us/learn/certifications/exams/ms-220)
+Based on skills measured page of the exam, around 25 april 2022. At this time the exam still had the beta label. See the source for up-to-date information on which skills are measured in this exam: [Microsoft Exam MS-220](https://docs.microsoft.com/en-us/learn/certifications/exams/ms-220)
 
 ## Table of Contents
 
 * [Generic links](#generic-links)
 * [Troubleshoot mail flow issues (20–25%)](#troubleshoot-mail-flow-issues-2025)
+  * [Troubleshoot Exchange Online mail flow issues](#troubleshoot-exchange-online-mail-flow-issuestroubleshoot-exchange-online-mail-flow-issues)
+  * [Troubleshoot mail flow issues with external systems](#troubleshoot-mail-flow-issues-with-external-systems)
+  * [Troubleshoot other mail flow issues](#troubleshoot-other-mail-flow-issues)
+  * [Troubleshoot issues reported by Microsoft Defender for Office 365](#troubleshoot-issues-reported-by-microsoft-defender-for-office-365)
 * [Troubleshoot compliance and retention issues (25–30%)](#troubleshoot-compliance-and-retention-issues-2530)
+  * [Troubleshoot compliance issues](#troubleshoot-compliance-issues)
+  * [Troubleshoot retention issues](#troubleshoot-retention-issues)
+  * [Troubleshoot Office Message Encryption (OME) and S/Mime issues](#troubleshoot-office-message-encryption-ome-and-smime-issues)
+  * [Troubleshoot mailbox auditing issues](#troubleshoot-mailbox-auditing-issues)
+  * [Troubleshoot journaling](#troubleshoot-journaling)
 * [Troubleshoot mail client issues (20–25%)](#troubleshoot-mail-client-issues-2025)
+  * [Troubleshoot connectivity and authentication issues](#troubleshoot-connectivity-and-authentication-issues)
+  * [Troubleshoot calendaring issues](#troubleshoot-calendaring-issues)
+  * [Troubleshoot calendar sharing issues](#troubleshoot-calendar-sharing-issues)
+  * [Troubleshoot issues with mobile devices](#troubleshoot-issues-with-mobile-devices)
 * [Troubleshoot Exchange Online configuration issues (15–20%)](#troubleshoot-exchange-online-configuration-issues-1520)
+  * [Troubleshoot provisioning issues](#troubleshoot-provisioning-issues)
+  * [Troubleshoot recipient issues](#troubleshoot-recipient-issues)
+  * [Troubleshoot org-wide settings](#troubleshoot-org-wide-settings)
+  * [Troubleshoot public folder issues](#troubleshoot-public-folder-issues)
 * [Troubleshoot hybrid and migration issues (10–15%)](#troubleshoot-hybrid-and-migration-issues-1015)
+  * [Troubleshoot hybrid configuration issues](#troubleshoot-hybrid-configuration-issues)
+  * [Troubleshoot migration issues](#troubleshoot-migration-issues)
 
 ## Generic links
+
+Helpful sources that can provide extra insight as to the goal of this exam and certification.
 
 * [Office troubleshooting for admins and IT Pros](https://docs.microsoft.com/en-us/exchange/troubleshoot/)
   * [Exchange Server Troubleshooting](https://docs.microsoft.com/en-us/exchange/troubleshoot/exchange-server-welcome)
@@ -155,7 +175,7 @@ Based on skills measured page of the exam, around 25 april 2022. At this time th
 * troubleshoot S/Mime issues
   * [S/MIME in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/smime-exo/smime-exo)
 
-### Troubleshoot mailbox auditing Issues
+### Troubleshoot mailbox auditing issues
 
 * troubleshoot issues searching audit logs
   * [Manage mailbox auditing  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide)
@@ -208,7 +228,7 @@ Based on skills measured page of the exam, around 25 april 2022. At this time th
 * troubleshoot Outlook continuously asking for Exchange Online password
   * [Outlook continually prompts for password when you try to connect to Office 365  * Outlook | Microsoft Docs](https://docs.microsoft.com/en-us/outlook/troubleshoot/authentication/continually-prompts-password-office-365)
 
-### Troubleshoot calendaring Issues
+### Troubleshoot calendaring issues
 
 * review and analyze mailbox and calendar diagnostic logs
   * [Get-CalendarDiagnosticLog (ExchangePowerShell) | Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/exchange/get-calendardiagnosticlog?view=exchange-ps#:~:text=The%20Calendar%20Diagnostic%20logs%20track%20all%20calendar%20items,the%20Syntax%20section%20below%2C%20see%20Exchange%20cmdlet%20syntax.)
@@ -297,7 +317,7 @@ Based on skills measured page of the exam, around 25 april 2022. At this time th
 * troubleshoot Client-Access Services (CAS) mailbox plans
   * [Get-CASMailboxPlan (ExchangePowerShell) | Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/exchange/get-casmailboxplan?view=exchange-ps)
 
-### Troubleshoot public folder Issues
+### Troubleshoot public folder issues
 
 * troubleshoot Exchange Online access to public folders
   * [Public folders in Microsoft 365, Office 365, and Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/collaboration-exo/public-folders/public-folders)
