@@ -2,70 +2,34 @@
 
 # Table of Contents
 
-**[Troubleshoot mail flow issues (20–25%) 2](#_Toc101652758)**
+**[Troubleshoot mail flow issues (20–25%)](#_Toc101652758)**
 
-[Troubleshoot Exchange Online mail flow issues 2](#_Toc101652759)
+**[Troubleshoot compliance and retention issues (25–30%)](#_Toc101652763)**
 
-[Troubleshoot mail flow issues with external systems 2](#_Toc101652760)
+**[Troubleshoot mail client issues (20–25%)](#_Toc101652769)**
 
-[Troubleshoot other mail flow issues 3](#_Toc101652761)
+**[Troubleshoot Exchange Online configuration issues (15–20%)](#_Toc101652774)**
 
-[Troubleshoot issues reported by Microsoft Defender for Office 365 3](#_Toc101652762)
+**[Troubleshoot hybrid and migration issues (10–15%)](#_Toc101652779)**
 
-**[Troubleshoot compliance and retention issues (25–30%) 4](#_Toc101652763)**
 
-[Troubleshoot compliance issues 4](#_Toc101652764)
-
-[Troubleshoot retention issues 5](#_Toc101652765)
-
-[Troubleshoot Office Message Encryption (OME) and S/Mime issues 5](#_Toc101652766)
-
-[Troubleshoot mailbox auditing Issues 6](#_Toc101652767)
-
-[Troubleshoot journaling 6](#_Toc101652768)
-
-**[Troubleshoot mail client issues (20–25%) 7](#_Toc101652769)**
-
-[Troubleshoot connectivity and authentication issues 7](#_Toc101652770)
-
-[Troubleshoot calendaring Issues 7](#_Toc101652771)
-
-[Troubleshoot calendar sharing issues 8](#_Toc101652772)
-
-[Troubleshoot issues with mobile devices 8](#_Toc101652773)
-
-**[Troubleshoot Exchange Online configuration issues (15–20%) 9](#_Toc101652774)**
-
-[Troubleshoot provisioning issues 9](#_Toc101652775)
-
-[Troubleshoot recipient issues 9](#_Toc101652776)
-
-[Troubleshoot org-wide settings 10](#_Toc101652777)
-
-[Troubleshoot public folder Issues 10](#_Toc101652778)
-
-**[Troubleshoot hybrid and migration issues (10–15%) 11](#_Toc101652779)**
-
-[Troubleshoot hybrid configuration issues 11](#_Toc101652780)
-
-[Troubleshoot migration issues 11](#_Toc101652781)
 
 # Troubleshoot mail flow issues (20–25%)
 
 ### Troubleshoot Exchange Online mail flow issues
 
-- **review and interpret message headers**
-- [View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)
-- [Anti-spam message headers - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)
-- **review and interpret message trace results and policies associated with those results**
-- [Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)
-- [Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
-- [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
-- **determine whether a transport rule or conditional routing rule is affecting mail flow**
-- [Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)
-- [Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)
--
-- **identify rules that are evaluated and policies that are applied when sending or receiving email**
+**review and interpret message headers**
+  - [View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)
+  - [Anti-spam message headers - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)
+  - **review and interpret message trace results and policies associated with those results**
+  - [Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)
+  - [Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
+  - [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
+  - **determine whether a transport rule or conditional routing rule is affecting mail flow**
+  - [Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)
+  - [Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)
+
+**identify rules that are evaluated and policies that are applied when sending or receiving email**
 - [Test a mail flow rule in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules)
 - **troubleshoot issues where users cannot send or receive email and no NDR is generated or displayed**
 - [Find and fix email delivery issues as an Office 365 for business admin - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/email-delivery-issues)
