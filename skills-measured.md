@@ -19,58 +19,54 @@
 ### Troubleshoot Exchange Online mail flow issues
 
 **review and interpret message headers**
-  - [View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)
-  - [Anti-spam message headers - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)
-  - **review and interpret message trace results and policies associated with those results**
-  - [Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)
-  - [Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
-  - [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
-  - **determine whether a transport rule or conditional routing rule is affecting mail flow**
-  - [Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)
-  - [Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)
-
+ - [View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)
+ - [Anti-spam message headers - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)
+**review and interpret message trace results and policies associated with those results**
+ - [Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)
+ - [Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
+ - [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
+**determine whether a transport rule or conditional routing rule is affecting mail flow**
+ - [Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)
+ - [Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)
 **identify rules that are evaluated and policies that are applied when sending or receiving email**
-- [Test a mail flow rule in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules)
-- **troubleshoot issues where users cannot send or receive email and no NDR is generated or displayed**
-- [Find and fix email delivery issues as an Office 365 for business admin - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/email-delivery-issues)
-- [Delivery receipts aren&#39;t created - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/delivery-receipts-are-not-generated)
-- **troubleshoot issues where mail destined for one tenant is incorrectly routed to another tenant**
-- [Troubleshooting mail sent to Microsoft 365 - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/troubleshooting-mail-sent-to-office-365?view=o365-worldwide)
-- [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
--
-- **troubleshoot delivery delays**
-- [Mail delivery issues - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/mail-issues)
--
+ - [Test a mail flow rule in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules)
+**troubleshoot issues where users cannot send or receive email and no NDR is generated or displayed**
+ - [Find and fix email delivery issues as an Office 365 for business admin - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/email-delivery-issues)
+ - [Delivery receipts aren&#39;t created - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/delivery-receipts-are-not-generated)
+**troubleshoot issues where mail destined for one tenant is incorrectly routed to another tenant**
+ - [Troubleshooting mail sent to Microsoft 365 - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/troubleshooting-mail-sent-to-office-365?view=o365-worldwide)
+ - [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
+**troubleshoot delivery delays**
+ - [Mail delivery issues - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/mail-issues)
 
 ### Troubleshoot mail flow issues with external systems
 
-- **read and analyze SMTP protocol logs for hybrid deployments and third-party systems**
-- [Protocol logging | Microsoft Docs](https://docs.microsoft.com/en-us/Exchange/mail-flow/connectors/protocol-logging?view=exchserver-2019)
-- **troubleshoot issues related to mail flow for hybrid deployments**
-- [Transport routing in Exchange hybrid deployments | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/transport-routing)
-- [Demystifying and troubleshooting hybrid mail flow: when is a message internal? - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/demystifying-and-troubleshooting-hybrid-mail-flow-when-is-a/ba-p/1420838)
-- **troubleshoot DNS-related mail flow issues**
-- [Mail flow best practices for Exchange Online, Microsoft 365, and Office 365 (overview) | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/mail-flow-best-practices#understanding-how-dns-records-control-mail-flow)
-- **troubleshoot SMTP relay issues**
-- [How to set up a multifunction device or application to send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)
-- [Fix issues with printers, scanners, and LOB applications that send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/fix-issues-with-printers-scanners-and-lob-applications-that-send-email-using-off)
-- **troubleshoot SMTP certificate issues**
-- [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
-- [How Exchange Online uses TLS to secure email connections - Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections?view=o365-worldwide)
--
+**read and analyze SMTP protocol logs for hybrid deployments and third-party systems**
+ - [Protocol logging | Microsoft Docs](https://docs.microsoft.com/en-us/Exchange/mail-flow/connectors/protocol-logging?view=exchserver-2019)
+**troubleshoot issues related to mail flow for hybrid deployments**
+ - [Transport routing in Exchange hybrid deployments | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/transport-routing)
+ - [Demystifying and troubleshooting hybrid mail flow: when is a message internal? - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/demystifying-and-troubleshooting-hybrid-mail-flow-when-is-a/ba-p/1420838)
+**troubleshoot DNS-related mail flow issues**
+ - [Mail flow best practices for Exchange Online, Microsoft 365, and Office 365 (overview) | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/mail-flow-best-practices#understanding-how-dns-records-control-mail-flow)
+**troubleshoot SMTP relay issues**
+ - [How to set up a multifunction device or application to send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)
+ - [Fix issues with printers, scanners, and LOB applications that send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/fix-issues-with-printers-scanners-and-lob-applications-that-send-email-using-off)
+**troubleshoot SMTP certificate issues**
+ - [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
+ - [How Exchange Online uses TLS to secure email connections - Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections?view=o365-worldwide)
 
 ### Troubleshoot other mail flow issues
 
-- **identify types of NDRs and interpret NDR data**
-- [Email non-delivery reports in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
-- **determine which active rules impact email attachments**
-- [Use mail flow rules to inspect message attachments in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#:~:text=Mail%20flow%20rules%20allow%20you%20to%20examine%20email,you%20can%20do%20by%20using%20mail%20flow%20rules%3A)
-- **determine which rules are triggered when an email arrives at a user&#39;s inbox**
-- [Mail flow rule procedures in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-procedures)
-- [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
-- **troubleshoot issues related to blocked attachment types**
-- [Common attachment blocking scenarios for mail flow rules in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
-- **troubleshoot issues with corrupted inbox rules**
+**identify types of NDRs and interpret NDR data**
+ - [Email non-delivery reports in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
+**determine which active rules impact email attachments**
+ - [Use mail flow rules to inspect message attachments in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#:~:text=Mail%20flow%20rules%20allow%20you%20to%20examine%20email,you%20can%20do%20by%20using%20mail%20flow%20rules%3A)
+**determine which rules are triggered when an email arrives at a user&#39;s inbox**
+ - [Mail flow rule procedures in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-procedures)
+ - [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
+**troubleshoot issues related to blocked attachment types**
+ - [Common attachment blocking scenarios for mail flow rules in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
+**troubleshoot issues with corrupted inbox rules**
 - [Delete junk email rules by using MFCMAPI - Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/administration/delete-junk-email-rules-mfcmapi-exchange)
 - [The rules on this computer do not match the rules on Microsoft Exchange](https://support.microsoft.com/en-us/office/the-rules-on-this-computer-do-not-match-the-rules-on-microsoft-exchange-d032e037-b224-429e-b325-633afde9b5f0?ui=en-us&amp;rs=en-us&amp;ad=us)
 -
