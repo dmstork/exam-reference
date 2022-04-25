@@ -37,6 +37,7 @@ Based on skills measured page of the exam, around 25 april 2022. At this time th
 
 Helpful sources that can provide extra insight as to the goal of this exam and certification.
 
+* [Learning path Troubleshoot Exchange Online](https://docs.microsoft.com/en-us/learn/paths/troubleshoot-microsoft-exchange-online/)
 * [Office troubleshooting for admins and IT Pros](https://docs.microsoft.com/en-us/exchange/troubleshoot/)
   * [Exchange Server Troubleshooting](https://docs.microsoft.com/en-us/exchange/troubleshoot/exchange-server-welcome)
   * [Exchange Online Troubleshooting](https://docs.microsoft.com/en-us/exchange/troubleshoot/exchange-online-welcome)
@@ -44,7 +45,7 @@ Helpful sources that can provide extra insight as to the goal of this exam and c
   * [Outlook for Windows](https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-client-welcome)
   * [Outlook for Mac](https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-mac-welcome)
   * [Outlook for iOS and Android](https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-mobile-welcome)
-  * [Checklist for troubleshooting Performance](https://techcommunity.microsoft.com/t5/exchange-team-blog/checklist-for-troubleshooting-performance-related-issues-in/ba-p/604792)
+* [Checklist for troubleshooting Performance](https://techcommunity.microsoft.com/t5/exchange-team-blog/checklist-for-troubleshooting-performance-related-issues-in/ba-p/604792)
 
 ## Troubleshoot mail flow issues (20–25%)
 
