@@ -1,73 +1,84 @@
 # Exam MS-220: Troubleshooting Microsoft Exchange Online – Skills Measured
 
-Created by Dave Stork - Microsoft MVP Office Apps & Services - dmstork at stalpaert dot nl
+Created by Dave Stork - Microsoft MVP Office Apps & Services - dmstork at stalpaert dot nl  
 Provided as-is without any garantue of being error free or complete. This is a reference to (mostly) original sources from Microsoft which could help you acquire the skills measured.
 
-Based on skills measured around 25 april 2022. [Source MS-220](https://docs.microsoft.com/en-us/learn/certifications/exams/ms-220)
+Based on skills measured page of the exam, around 25 april 2022. At this time the exam still had the beta label.
+[Source MS-220](https://docs.microsoft.com/en-us/learn/certifications/exams/ms-220)
 
 ## Table of Contents
 
-* Troubleshoot mail flow issues (20–25%)
-* Troubleshoot compliance and retention issues (25–30%)
-* Troubleshoot mail client issues (20–25%)
-* Troubleshoot Exchange Online configuration issues (15–20%)
-* Troubleshoot hybrid and migration issues (10–15%)
+* [Generic links](#generic-links)
+* [Troubleshoot mail flow issues (20–25%)](#troubleshoot-mail-flow-issues-(20–25%))
+* [Troubleshoot compliance and retention issues (25–30%)](#troubleshoot-compliance-and-retention-issues-(25–30%))
+* [Troubleshoot mail client issues (20–25%)](#troubleshoot-mail-client-issues-(20–25%))
+* [Troubleshoot Exchange Online configuration issues (15–20%)](#troubleshoot-exchange-online-configuration-issues-(15–20%))
+* [Troubleshoot hybrid and migration issues (10–15%)](#troubleshoot-hybrid-and-migration-issues-(10–15%))
+
+## Generic links
+
+* [Office troubleshooting for admins and IT Pros](https://docs.microsoft.com/en-us/exchange/troubleshoot/)
+  * [Exchange Server Troubleshooting](https://docs.microsoft.com/en-us/exchange/troubleshoot/exchange-server-welcome)
+  * [Exchange Online Troubleshooting](https://docs.microsoft.com/en-us/exchange/troubleshoot/exchange-online-welcome)
+  * [Exchange Hybrid Troubleshooting](https://docs.microsoft.com/en-us/exchange/troubleshoot/exchange-hybrid-welcome)
+  * [Outlook for Windows](https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-client-welcome)
+  * [Outlook for Mac](https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-mac-welcome)
+  * [Outlook for iOS and Android](https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-mobile-welcome)
+  * [Checklist for troubleshooting Performance](https://techcommunity.microsoft.com/t5/exchange-team-blog/checklist-for-troubleshooting-performance-related-issues-in/ba-p/604792)
 
 ## Troubleshoot mail flow issues (20–25%)
 
 ### Troubleshoot Exchange Online mail flow issues
 
 * review and interpret message headers
-  * [View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)  
-  * [Anti-spam message headers  * Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)  
-* review and interpret message trace results and policies associated with those results  
-  * [Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)  
-  * [Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)  
-  * [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)  
-* determine whether a transport rule or conditional routing rule is affecting mail flow  
-  * [Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)  
-  * [Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)  
+  * [View internet message headers in Outlook (microsoft.com)](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c)
+  * [Anti-spam message headers  * Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-message-headers?view=o365-worldwide)
+* review and interpret message trace results and policies associated with those results
+  * [Run a message trace and view the results in the Exchange admin center in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results)
+  * [Message trace in the modern EAC in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
+  * [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
+* determine whether a transport rule or conditional routing rule is affecting mail flow
+  * [Which mail flow rule (also known as a transport rule) or DLP policy was applied to a message?](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq#which-mail-flow-rule-also-known-as-a-transport-rule-or-dlp-policy-was-applied-to-a-message)
+  * [Scenario Conditional mail routing in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)
 * identify rules that are evaluated and policies that are applied when sending or receiving email
-  * [Test a mail flow rule in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules)  
-* troubleshoot issues where users cannot send or receive email and no NDR is generated or displayed  
-  * [Find and fix email delivery issues as an Office 365 for business admin  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/email-delivery-issues)  
-  * [Delivery receipts aren&#39;t created  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/delivery-receipts-are-not-generated)  
+  * [Test a mail flow rule in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules)
+* troubleshoot issues where users cannot send or receive email and no NDR is generated or displayed
+  * [Find and fix email delivery issues as an Office 365 for business admin  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/email-delivery-issues)
+  * [Delivery receipts aren&#39;t created  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/delivery-receipts-are-not-generated)
+* troubleshoot issues where mail destined for one tenant is incorrectly routed to another tenant
+  * [Troubleshooting mail sent to Microsoft 365  * Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/troubleshooting-mail-sent-to-office-365?view=o365-worldwide)
+  * [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
+* troubleshoot delivery delays
+  * [Mail delivery issues  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/mail-issues)
 
-* troubleshoot issues where mail destined for one tenant is incorrectly routed to another tenant  
-  * [Troubleshooting mail sent to Microsoft 365  * Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/troubleshooting-mail-sent-to-office-365?view=o365-worldwide)  
-  * [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)  
+### Troubleshoot mail flow issues with external systems
 
-* troubleshoot delivery delays  
-  * [Mail delivery issues  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/email-delivery/mail-issues)  
-
-#### Troubleshoot mail flow issues with external systems  
-
-* read and analyze SMTP protocol logs for hybrid deployments and third-party systems  
+* read and analyze SMTP protocol logs for hybrid deployments and third-party systems
   * [Protocol logging | Microsoft Docs](https://docs.microsoft.com/en-us/Exchange/mail-flow/connectors/protocol-logging?view=exchserver-2019)
-* troubleshoot issues related to mail flow for hybrid deployments  
+* troubleshoot issues related to mail flow for hybrid deployments
   * [Transport routing in Exchange hybrid deployments | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/transport-routing)
   * [Demystifying and troubleshooting hybrid mail flow: when is a message internal?  * Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/demystifying-and-troubleshooting-hybrid-mail-flow-when-is-a/ba-p/1420838)
-* troubleshoot DNS-related mail flow issues  
+* troubleshoot DNS-related mail flow issues
   * [Mail flow best practices for Exchange Online, Microsoft 365, and Office 365 (overview) | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/mail-flow-best-practices#understanding-how-dns-records-control-mail-flow)
-* troubleshoot SMTP relay issues  
+* troubleshoot SMTP relay issues
   * [How to set up a multifunction device or application to send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)
   * [Fix issues with printers, scanners, and LOB applications that send email using Microsoft 365 or Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/fix-issues-with-printers-scanners-and-lob-applications-that-send-email-using-off)
-* troubleshoot SMTP certificate issues  
+* troubleshoot SMTP certificate issues
   * [Set up connectors for secure mail flow with a partner organization in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
   * [How Exchange Online uses TLS to secure email connections  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections?view=o365-worldwide)
 
 ### Troubleshoot other mail flow issues
 
-* identify types of NDRs and interpret NDR data  
+* identify types of NDRs and interpret NDR data
   * [Email non-delivery reports in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
-* determine which active rules impact email attachments  
+* determine which active rules impact email attachments
   * [Use mail flow rules to inspect message attachments in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#:~:text=Mail%20flow%20rules%20allow%20you%20to%20examine%20email,you%20can%20do%20by%20using%20mail%20flow%20rules%3A)
-* determine which rules are triggered when an email arrives at a user's inbox  
+* determine which rules are triggered when an email arrives at a user's inbox
   * [Mail flow rule procedures in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-procedures)
   * [Message Trace FAQ in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-faq)
-* troubleshoot issues related to blocked attachment types  
+* troubleshoot issues related to blocked attachment types
   * [Common attachment blocking scenarios for mail flow rules in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
-* troubleshoot issues with corrupted inbox rules  
+* troubleshoot issues with corrupted inbox rules
   * [Delete junk email rules by using MFCMAPI  * Exchange | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/troubleshoot/administration/delete-junk-email-rules-mfcmapi-exchange)
   * [The rules on this computer do not match the rules on Microsoft Exchange](https://support.microsoft.com/en-us/office/the-rules-on-this-computer-do-not-match-the-rules-on-microsoft-exchange-d032e037-b224-429e-b325-633afde9b5f0?ui=en-us&amp;rs=en-us&amp;ad=us)
 
@@ -112,7 +123,7 @@ Based on skills measured around 25 april 2022. [Source MS-220](https://docs.micr
 
 ### Troubleshoot retention issues
 
-* describe retention tag types and actions  
+* describe retention tag types and actions
   * [Retention tags and retention policies in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 * describe the process for calculating item retention age
   * [How retention age is calculated in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/messaging-records-management/retention-age)
@@ -129,29 +140,24 @@ Based on skills measured around 25 april 2022. [Source MS-220](https://docs.micr
 * troubleshoot issues with messages that are not encrypted or decrypted as expected
   * [Message encryption FAQ | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-faq?view=o365-worldwide)
   * [Message encryption version comparison  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-version-comparison?view=o365-worldwide)
-
 * troubleshoot issues where external users cannot decrypt messages but internal users can decrypt messages
   * [Email encryption in Microsoft 365  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/email-encryption?view=o365-worldwide)
   * [Exchange Online mail encryption with AD RMS  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/information-rights-management-in-exchange-online?view=o365-worldwide)
   * [S/MIME for message signing and encryption | Microsoft Docs](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/smime/smime?view=exchserver-2019)
-
-* troubleshoot issues reading, replying to, or forwarding protected messages from Microsoft 365 on mobile devices  
+* troubleshoot issues reading, replying to, or forwarding protected messages from Microsoft 365 on mobile devices
   * [Manage Office 365 Message Encryption  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/manage-office-365-message-encryption?view=o365-worldwide#enable-service-side-decryption-of-email-messages-for-ios-mail-app-users)
   * [Message encryption FAQ | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-faq?view=o365-worldwide)
-
-* troubleshoot mail flow rules  
+* troubleshoot mail flow rules
   * [Define mail flow rules to encrypt email messages  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email?view=o365-worldwide)
-
-* troubleshoot revocation issues for encrypted emails  
+* troubleshoot revocation issues for encrypted emails
   * [Revoke email encrypted by Advanced Message Encryption  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide)
   * [Set an expiration date for email encrypted by Microsoft Purview Advanced Message Encryption  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-advanced-expiration?view=o365-worldwide)
-
-* troubleshoot S/Mime issues  
+* troubleshoot S/Mime issues
   * [S/MIME in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/smime-exo/smime-exo)
 
 ### Troubleshoot mailbox auditing Issues
 
-* troubleshoot issues searching audit logs  
+* troubleshoot issues searching audit logs
   * [Manage mailbox auditing  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide)
   * [Search the audit log in the Microsoft Purview compliance portal  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide)
   * [Search the audit log to troubleshoot common scenarios  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/auditing-troubleshooting-scenarios?view=o365-worldwide)
@@ -159,20 +165,20 @@ Based on skills measured around 25 april 2022. [Source MS-220](https://docs.micr
   * [Search the audit log to troubleshoot common scenarios  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/auditing-troubleshooting-scenarios?view=o365-worldwide#determine-if-a-user-deleted-email-items)
 * troubleshoot bulk actions including email creation, moves, modifications, and deletion
   * [Detailed properties in the audit log  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?view=o365-worldwide)
-* track non-owner actions  
+* track non-owner actions
   * [Search the audit log to troubleshoot common scenarios  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/auditing-troubleshooting-scenarios?view=o365-worldwide)
 * troubleshoot audit log retention period issue
   * [Manage audit log retention policies  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/audit-log-retention-policies?view=o365-worldwide)
-* troubleshoot auditing not working  
-  * [Microsoft Purview auditing solutions  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/auditing-solutions-overview?view=o365-worldwide)  
+* troubleshoot auditing not working
+  * [Microsoft Purview auditing solutions  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/auditing-solutions-overview?view=o365-worldwide)
 
 ### Troubleshoot journaling
 
-* troubleshoot duplicate journal entries  
+* troubleshoot duplicate journal entries
   * [Journaling in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/journaling/journaling#troubleshooting)
-* troubleshoot mail not being journaled  
+* troubleshoot mail not being journaled
   * [Manage journaling in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/security-and-compliance/journaling/manage-journaling)
-* troubleshoot journal OME decryption issues  
+* troubleshoot journal OME decryption issues
   * [Office 365 Message Encryption  * Microsoft Purview | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome?view=o365-worldwide)
   * [Journal report decryption: Exchange 2013 Help | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/journal-report-decryption-exchange-2013-help)
 
